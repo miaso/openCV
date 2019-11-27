@@ -1,0 +1,11 @@
+﻿  ImageAcquisition.cpp
+c:\users\t520\documents\visual studio 2017\projects\testiks\testiks\imageacquisition.cpp(36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\t520\documents\visual studio 2017\projects\testiks\testiks\imageacquisition.cpp(27): warning C4101: 'picture': unreferenced local variable
+  main.cpp
+  PointIdentification.cpp
+ImageAcquisition.obj : error LNK2001: unresolved external symbol "void __cdecl cv::line(class cv::_InputOutputArray const &,class cv::Point_<int>,class cv::Point_<int>,class cv::Scalar_<double> const &,int,int,int)" (?line@cv@@YAXAEBV_InputOutputArray@1@V?$Point_@H@1@1AEBV?$Scalar_@N@1@HHH@Z)
+main.obj : error LNK2001: unresolved external symbol "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::_InputArray const &)" (?imshow@cv@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV_InputArray@1@@Z)
+main.obj : error LNK2001: unresolved external symbol "bool __cdecl cv::imwrite(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::_InputArray const &,class std::vector<int,class std::allocator<int> > const &)" (?imwrite@cv@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV_InputArray@1@AEBV?$vector@HV?$allocator@H@std@@@3@@Z)
+main.obj : error LNK2001: unresolved external symbol "public: void __cdecl cv::Mat::copyTo(class cv::_OutputArray const &)const " (?copyTo@Mat@cv@@QEBAXAEBV_OutputArray@2@@Z)
+PointIdentification.obj : error LNK2001: unresolved external symbol "void __cdecl cv::rectangle(class cv::_InputOutputArray const &,class cv::Point_<int>,class cv::Point_<int>,class cv::Scalar_<double> const &,int,int,int)" (?rectangle@cv@@YAXAEBV_InputOutputArray@1@V?$Point_@H@1@1AEBV?$Scalar_@N@1@HHH@Z)
+C:\Users\T520\Documents\Visual Studio 2017\Projects\testiks\x64\Release\testiks.exe : fatal error LNK1120: 5 unresolved externals

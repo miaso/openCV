@@ -1,0 +1,10 @@
+﻿  PointIdentification.cpp
+c:\users\t520\documents\visual studio 2017\projects\testiks\testiks\pointidentification.cpp(243): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+c:\users\t520\documents\visual studio 2017\projects\testiks\testiks\pointidentification.cpp(453): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\users\t520\documents\visual studio 2017\projects\testiks\testiks\pointidentification.cpp(112): warning C4715: 'PointIdentification::KeyRetriever': not all control paths return a value
+c:\users\t520\documents\visual studio 2017\projects\testiks\testiks\pointidentification.cpp(215): warning C4715: 'PointIdentification::identifyObjects': not all control paths return a value
+  testiks.vcxproj -> C:\Users\T520\Documents\Visual Studio 2017\Projects\testiks\x64\Debug\testiks.exe

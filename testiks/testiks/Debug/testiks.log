@@ -1,0 +1,4 @@
+﻿  main.cpp
+main.obj : error LNK2019: unresolved external symbol "void __cdecl cv::error(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,char const *,char const *,int)" (?error@cv@@YAXHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PBD1H@Z) referenced in function "public: class cv::Mat & __thiscall cv::Mat::operator=(class cv::Mat &&)" (??4Mat@cv@@QAEAAV01@$$QAV01@@Z)
+C:\opencv\build\x64\vc15\lib\opencv_world400d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\T520\Documents\Visual Studio 2015\Projects\testiks\Debug\testiks.exe : fatal error LNK1120: 1 unresolved externals
